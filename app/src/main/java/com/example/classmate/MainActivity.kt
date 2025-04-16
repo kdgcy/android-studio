@@ -18,6 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Box(modifier = Modifier.fillMaxSize().padding(WindowInsets.systemBars.asPaddingValues())){
                 Text(text = "Hello World! eyyy! hey hey hey")
+                Text(text = "Ey! nakuha ko na din kung paano mag pull")
             }//BoxContainer END
         }//setContent END
     }//onCreate END
